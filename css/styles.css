@@ -1,3 +1,21 @@
+/*colours 
+grayish blue - #052D3D
+light blue - #B8E1FF  , lighter - #C9E7FD
+orangish sand - #E08D79
+/* global styles */
+
+body
+{
+  color : #052D3D;  
+  background-color: C9E7FD;
+  font-size: 25px;
+}
+
+/* type selectors */
 h1{
     color: red;
 }
+figcaption{
+    color: #E08D79;
+}
+
