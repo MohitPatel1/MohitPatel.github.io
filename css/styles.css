@@ -42,7 +42,11 @@ a{
 /* Header--------------------------------------------------------------------------- */
 header{
   background-color: #E08D79 ;
-  padding-top: 5px;
+}
+header h1{
+  padding-top: 50px;
+  padding-left: 50px;
+  display: block;
 }
 
 .quotes{
