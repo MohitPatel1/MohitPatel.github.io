@@ -1,21 +1,81 @@
 /*colours 
 grayish blue - #052D3D
 light blue - #B8E1FF  , lighter - #C9E7FD
+purple - #0F8CBD
+skin colour - #E08D79
 orangish sand - #E08D79
-/* global styles */
+greenish blue - #2A7F62
+florocent green - #A5BE00
+blood red - #96031A
+
+/* global styles--------------------------------------------------------------------- */
 
 body
 {
   color : #052D3D;  
-  background-color: C9E7FD;
+  background-color: #C9E7FD;
   font-size: 25px;
+  margin: 0;
+  padding: 0;
 }
 
-/* type selectors */
 h1{
-    color: red;
-}
-figcaption{
-    color: #E08D79;
+  color: #2A7F62;
 }
 
+h2{
+color: #A5BE00;
+text-shadow: 2px 2px #052D3D;
+}
+
+figcaption{
+  color: #E08D79;
+}
+
+a{
+ color:  #96031A;
+ padding: 6px;
+ background-color: #A5BE00;
+ border-radius: 5px ;
+ text-decoration: none;
+}
+
+/* Header--------------------------------------------------------------------------- */
+header{
+  background-color: #E08D79 ;
+}
+
+.quotes{
+  width: 50%;
+  margin: auto;
+  padding: 30px;
+  text-align: center;
+
+  /* display: block; */
+}
+
+/* anime section------------------------------------------------------------------------ */
+.anime a:hover{
+ color: #F9B6B4;
+}
+
+.anime .photolink{
+  background-color: #C9E7FD;
+}
+
+.anime a{
+  color: #052D3D;
+  background-color: #0F8CBD;
+}
+
+
+/*footer-----------------------------------------------------------------------------------*/
+footer{
+  background-color: #E08D79;
+}
+a:focus footer{
+  color: #E08D79;
+}
+a:hover footer{
+  color: rgba(219, 213, 110, 0.4);
+}
