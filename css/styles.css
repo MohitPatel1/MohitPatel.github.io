@@ -11,12 +11,12 @@ dark light pink - #AF4D98
 
 /* ---------------------------------------------------  global styles  ------------------------------------------------------------------- */
 
-/* html{
+html{
   box-sizing: border-box;
 }
 *, *:before, *:after{
   box-sizing: inherit;
-} */
+} 
 
 body
 {
@@ -82,6 +82,7 @@ header h2{
 }
 
 /* --------------------------------------------------------  anime section  ----------------------------------------------------------- */
+
 .anime a:hover{
  color: #F9B6B4;
 }
@@ -105,11 +106,38 @@ figcaption{
 
 
 /* -----------------------------------------------------  songs section  ------------------------------------------------------------------- */
-
+.songs{
+ 
+}
 
 
 
 /* -----------------------------------------------------  The Office  ---------------------------------------------------------------------- */
+.office-block{
+  display: inline-block;
+ /* overflow: hidden; */
+} 
+
+.office{
+  font-size: large;
+}
+
+.office-inline{
+  display: inline;
+}
+
+.office img{
+  float: left;
+}
+
+.office-inline-block{
+  display: inline-block;
+}
+
+/* .office-block{
+  display: inline-block; 
+  overflow: auto;
+} */
 
 s{
   text-decoration: line-through;
@@ -123,10 +151,21 @@ s{
 /*-----------------------------------------------------  Footer  -----------------------------------------------------------------------------*/
 footer{
   background-color: #E08D79;
+  margin-top: 0;
+  
 }
-a:focus footer{
+footer a:focus {
   color: #E08D79;
 }
-a:hover footer{
+footer a:hover{
   color: rgba(219, 213, 110, 0.4);
+}
+
+footer h2{
+  margin-top: 0;
+} 
+
+footer img{
+  border-radius: 50%;
+  background-color: #E08D79;
 }
