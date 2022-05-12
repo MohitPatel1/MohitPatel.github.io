@@ -57,10 +57,18 @@ header{
   background-color: #E08D79 ;
 }
 
-header img{
+/* header img{
   float: left;
   padding: 2px;
+} */
+
+/.flex-container{
+  display: flex;
 }
+
+/* .flex-item{
+  flex-shrink: 0;
+}  */
 
 header h1{
   padding-top: 25px;
@@ -106,10 +114,12 @@ figcaption{
 
 
 /* -----------------------------------------------------  songs section  ------------------------------------------------------------------- */
-.songs{
+.songs {
  
 }
-
+.float-left{
+  float: left;
+}
 
 
 /* -----------------------------------------------------  The Office  ---------------------------------------------------------------------- */
@@ -134,6 +144,10 @@ figcaption{
   display: inline-block;
 }
 
+.office h1{
+  margin-bottom: 0;
+}
+
 /* .office-block{
   display: inline-block; 
   overflow: auto;
@@ -151,8 +165,7 @@ s{
 /*-----------------------------------------------------  Footer  -----------------------------------------------------------------------------*/
 footer{
   background-color: #E08D79;
-  margin-top: 0;
-  
+  padding-top: 7px;
 }
 footer a:focus {
   color: #E08D79;
@@ -161,11 +174,11 @@ footer a:hover{
   color: rgba(219, 213, 110, 0.4);
 }
 
-footer h2{
-  margin-top: 0;
-} 
-
 footer img{
   border-radius: 50%;
+  height: 25px;
+}
+
+footer a{
   background-color: #E08D79;
 }
